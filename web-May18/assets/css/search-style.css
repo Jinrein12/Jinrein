@@ -1,0 +1,120 @@
+.search-container{
+    background-color: #D5F0FF;
+    width: 80%;
+    height: 85vh;
+    margin: auto;
+    padding-top:30px ;
+    box-sizing: border-box;
+}
+
+.search-box{
+    /* background-color: aliceblue; */
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.search-box input{
+    width: 200px;
+    height: 35px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.search-box button{
+    background-color: #47BAFF;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 0;
+    width: 40px;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+}
+.search-box button:active{
+    background-color: #edf7fd;
+    border-radius: 15px;
+    color: #0c1cfa;
+    border: 1px solid black;
+}
+.result-box{
+    background-color: #D5F0FF;
+    width: 90%;
+    height: 50vh;
+    padding: 15px 15px;
+    margin: auto;
+    margin-top:30px ;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}   
+.result-table{
+    /* background-color: azure; */
+    margin: auto;
+    border-spacing: 10px 0;
+}
+.result-table .table-head th{
+    padding: 0px 2px 13px 2px;
+    text-align: left;
+    font-size: large;
+
+}
+
+.result-table thead .result-name{
+    width: 34%;
+    /* background-color: yellowgreen; */
+    height: max-content ;
+}
+
+.result-table thead .result-batch{
+    width: 14%;
+    height: max-content ;
+}
+
+.result-table thead .result-section{
+    width: 14%;
+    height: max-content ;
+}
+.result-table thead .result-adviser{
+    width: 15%;
+    height: max-content ;
+}
+
+.result-table thead .result-tech{
+    width: 16%;
+    height: max-content ;
+}
+.result-table thead .more-info{
+    width: 15%;
+    height: max-content ;
+}
+
+.result-table tbody tr td{
+    padding: 8px 0;
+}
+
+.more-info a{
+    background-color: #47BAFF;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 23px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #040623;
+}
+.more-info a:active{
+    box-sizing: border-box;
+    background-color: #1c394b;
+    color: #ced0f6;
+    border: 1px solid black;
+}
