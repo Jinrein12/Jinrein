@@ -1,39 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parenting Seminar / Search</title>
-    <link rel="stylesheet" href="../assets/css/header-nav-style.css">
-    <link rel="stylesheet" href="../assets/css/search-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/media-query.css">
-</head>
-
-<body>
-    <!-- Header -->
-    <div class="main-header">
-        <aside class="left-title">
-            <img src="../assets/img/cite-logo.png" alt="cite-logo">
-            <section class="cite-title" >
-                <h4 >
-                    CITE Technical Institute, Inc.
-                </h4>
-                <h3>
-                    Parenting Seminar Information Page
-                </h3>
-            </section>
-        </aside>
-        <nav class="nav-panel">
-            <a href="../index.php">Topics</a>
-            <a href="search.php">Search Student</a>
-            <a href="attendance-report.php">Attendance Report</a>
-        </nav>
-    </div>
-    <!-- end Header -->
-
-    
     <div class="search-container">
         <form action="" class="search-box" method="get">
             <input type="text" name="name" id="" placeholder="ex. Juan Dela Cruz" >
@@ -98,12 +62,3 @@
             </table>
         </div>
     </div>
-
-    <!-- footer -->
-    <footer class="footer">
-            CITE Technical Institute, Inc. - Jinrein12
-    </footer>
-    <!-- end of footer -->
-
-</body> 
-</html>

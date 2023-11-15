@@ -19,10 +19,6 @@
             <a  href="index.html">
                 <button class="lgn-btn" >Login</button>
             </a>
-            <!-- <p>or</p>
-            <a href="#">Click here to Signup</a>
-           
-     -->
         </div>
        
     </form>
